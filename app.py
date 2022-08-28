@@ -5,7 +5,7 @@ import cv2
 from PIL import Image
 import numpy as np
 
-loaded_model = load_model("C:/Users/harisathwik/Desktop/miniproject/digitsnew.h5")
+loaded_model = load_model("digitsnew.h5")
 
 st.title(" ?????? ")
 sketch = st_canvas(stroke_width=15, height=300, stroke_color="#FFFFFF",background_color="#000000", key="full_app")
