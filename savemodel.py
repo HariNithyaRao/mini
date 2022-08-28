@@ -21,7 +21,4 @@ model.compile(loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 
 model.fit(train_feature, train_target, batch_size=32, epochs=20)
-# filename = open("C:/Users/harisathwik/Desktop/miniproject/digit_model.pickle", "wb")
-# pickle.dump(model, filename)
-# filename.close()
-model.save("C:/Users/harisathwik/Desktop/miniproject/digitsnew.h5")
+model.save("digitsnew.h5")
